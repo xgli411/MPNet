@@ -114,8 +114,7 @@ class ConvBNLayer(nn.Module):
         self.bn = nn.BatchNorm2d(out_channels)
         self.act = getattr(nn, act)()
 
-    # 将卷积层和批量归一化（Batch Normalization）层融合（fuse）在一起，并返回融合后的卷积核权重和偏置项
-    # 减少模型中的计算量和内存占用，同时保持模型在训练和推理过程中的一致性。通过融合卷积层和批量归一化层，可以提高模型的执行效率。
+    # Combining convolution layer and batch normalization layer can improve the execution efficiency of the model.
     def _fuse_bn_tensor(self) -> None:
         kernel = self.conv.weight
         bias = self.conv.bias if hasattr(self.conv, 'bias') and self.conv.bias is not None else 0
