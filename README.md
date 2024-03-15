@@ -1,4 +1,5 @@
-# MPNet
+# MPNet: A lightweight fault diagnosis network for rotating machinery 
+Aiming at the real-time accurate detection of typical rotating machinery faults in the practical strong noise industrial scenarios, we propose a sound signal-based rotating machinery fault diagnosis method, and designs a novel lightweight fault diagnosis network called MPNet, which well balances accuracy, real-time performance and model size.
 Detailed data will be available soon!
 ## Proposed method
 ![image](https://github.com/xgli411/MPNet/blob/main/image/Implementation%20method.png)
