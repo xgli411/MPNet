@@ -8,5 +8,8 @@ Detailed data will be available soon!
 ## Visualization of experimental results
 ### (1) Anti-noise experiment on the DCASE 2023 Bearing dataset
 ![image](https://github.com/xgli411/MPNet/blob/main/image/Anti-noise%20experiment.png)
-### (2) Accuracy experiment on the self-made dataset
+### (2) Experiment on the self-made dataset
+#### a. Diagnostic performance comparison
+![image](https://github.com/xgli411/MPNet/blob/main/image/result%20on%20the%20self-made%20dataset.png)
+#### b. Feature distribution visualization
 ![image](https://github.com/xgli411/MPNet/blob/main/image/tsne.png)
