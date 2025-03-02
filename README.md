@@ -13,3 +13,19 @@ Detailed data will be available soon!
 ![image](https://github.com/xgli411/MPNet/blob/main/image/result%20on%20the%20self-made%20dataset.png)
 #### b. Feature distribution visualization
 ![image](https://github.com/xgli411/MPNet/blob/main/image/tsne.png)
+
+## Cite this article
+
+🔗🔗Paper link：[[https://www.tandfonline.com/doi/abs/10.1080/10589759.2024.2408441](https://www.sciencedirect.com/science/article/abs/pii/S0952197624021456)](https://www.sciencedirect.com/science/article/abs/pii/S0263224124013836)
+
+@article{LIU2025115498,
+title = {MPNet: A lightweight fault diagnosis network for rotating machinery},
+journal = {Measurement},
+volume = {239},
+pages = {115498},
+year = {2025},
+issn = {0263-2241},
+doi = {https://doi.org/10.1016/j.measurement.2024.115498},
+url = {https://www.sciencedirect.com/science/article/pii/S0263224124013836},
+author = {Yi Liu and Ying Chen and Xianguo Li and Xinyi Zhou and Dongdong Wu}
+}
